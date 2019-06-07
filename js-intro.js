@@ -2,15 +2,43 @@
 
 // Consider this variable:
 
-var mantra = "Be the dev";
+var mantra = "B"
 
 // 1. Write the code that returns 'B' from mantra.
+    console.log(mantra)
+
 
 // 2. Write the code that determines if there is a 'x' in mantra.
+var mantra = "Be the Dev"
+function mantra (){
+    if(mantra.includes("")){
+        return "true"
+    } else {
+        return "false"
+    }
+}
+    console.log(mantra.includes("x"))
+    
 
 // 3. Write the code that determines if there is a 'v' in mantra.
+var mantra = "Be the Dev"
+function mantra (){
+    if(mantra.includes("")){
+        return "true"
+    } else {
+        return "false"
+    }
+}
+    console.log(mantra.includes("v"))
 
 // Stretch: Write the code that returns the position of 'v' in mantra.
+
+var mantra = "Be the Dev"
+function mantra (){
+    return(mantra.indexOf(""))
+    }
+
+    console.log(mantra.indexOf("v"))
 
 
 // Consider the following statement:
@@ -30,6 +58,7 @@ if (codingIsEasy && imBored) {
 
 var imLost
 var imFrustrated
+var imGreat
 
 if (imLost || imFrustrated) {
     console.log('Break time!')
@@ -40,7 +69,8 @@ if (imLost || imFrustrated) {
 // 5. Update the imLost and imFrustated variables above the statement to the values required to log "Keep coding!"
 
 // 6a. Recall the mantra variable from the first question. Write the code that logs each letter of mantra using a for loop.
-
+for(let i = 0 ; i < mantra.length ; i++)
+console.log(mantra[i])
 // Stretch: Using a while loop.
 
 // Super Stretch: Using forEach().
